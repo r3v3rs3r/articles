@@ -1,0 +1,7 @@
+mycallback:
+mov eax, 1
+mov ecx, [esp]
+add esp, 0x20
+mov eip, ecx
+r
+ret
