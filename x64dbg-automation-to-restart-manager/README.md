@@ -93,7 +93,9 @@ Key actions:
 - extend exception ignore ranges
 
 ```python
-client.set_setting_int('Events', 'TlsCallbacks', 0) client.set_setting_int('Events', 'TlsCallbacksSystem', 0) client.set_setting_int('Events', 'SystemBreakpoint', 0)
+client.set_setting_int('Events', 'TlsCallbacks', 0)
+client.set_setting_int('Events', 'TlsCallbacksSystem', 0)
+client.set_setting_int('Events', 'SystemBreakpoint', 0)
 
 old = client.get_setting_str("Exceptions", "IgnoreRange")
 new = old + ",000006BA-000006BA:second:log:debuggee"
