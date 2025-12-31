@@ -81,7 +81,7 @@ This effectively forces the comparison to succeed.
 
 The automation was implemented using Python and the `x64dbg-automate` client.
 
-**Note:** The full script is available by the following link ![link](code/qilin_bypass.py)
+**Note:** The full script is available by the following link [link](code/qilin_bypass.py)
 #### Session #1. x64dbg Configuration
 
 The first debugger session is used **only** to modify x64dbg settings.
